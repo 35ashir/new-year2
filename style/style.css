@@ -8,9 +8,9 @@
   font-optical-sizing: auto;
 }
 
-
 /* start 1st part */
-section {
+
+#main-container {
   background-image: url("../images/banner/banner2.png");
   background-size: cover;
   background-position: left;
@@ -62,3 +62,48 @@ button {
 }
 
 /* End 1st part */
+
+/* 2nd part start  */
+
+#second-container{
+    display: flex;
+    margin-top: 200px;
+    margin-right: 322px;
+    margin-bottom: 130px;
+    margin-left: 206px;
+}
+
+.image-side{
+    width: 500px;
+}
+
+.banner-content{
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.banner-content h2{
+    width: 288px;
+    margin-bottom: 24px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.banner-content p{
+    color: #444343;
+    width: 288px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    line-height: 26px;
+
+}
+
+.list{
+    margin-top: 300px;
+    margin-right: 
+    
+
+}
