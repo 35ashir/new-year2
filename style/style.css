@@ -65,45 +65,76 @@ button {
 
 /* 2nd part start  */
 
-#second-container{
+#second-container {
+  display: flex;
+  width: 1072px;
+  margin-top: 200px;
+  margin-right: 322px;
+  margin-bottom: 130px;
+  margin-left: 206px;
+  border: 2px solid red;
+}
+
+.image-side {
+  width: 500px;
+  gap: 20px;
+}
+
+.banner-content {
+  width: 416px;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-content h2 {
+  width: 288px;
+  margin-left: 350px;
+  margin-bottom: 24px;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.banner-content p {
+  color: #444343;
+  width: 288px;
+  margin-left: 350px;
+  margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.list {
+  margin-top: 300px;
+}
+
+.list ul {
+  color: #16d887;
+  width: 349px;
+  margin-bottom: 10px;
+}
+
+
+/* 3rd part start */
+
+#thrid-container{
+    margin-top: 100px;
+    width: 1141px;
+    border: 2px solid red;
+}
+
+.heading-container{
+    text-align: center;
+}
+
+.heading-container h2{
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+#thrid-container .container .skill-box{
     display: flex;
-    margin-top: 200px;
-    margin-right: 322px;
-    margin-bottom: 130px;
-    margin-left: 206px;
-}
-
-.image-side{
-    width: 500px;
-}
-
-.banner-content{
-    width: 500px;
     align-items: center;
     justify-content: center;
     
-}
-
-.banner-content h2{
-    width: 288px;
-    margin-bottom: 24px;
-    font-size: 40px;
-    font-weight: bold;
-    text-align: left;
-}
-
-.banner-content p{
-    color: #444343;
-    width: 288px;
-    margin-bottom: 16px;
-    font-size: 16px;
-    line-height: 26px;
-
-}
-
-.list{
-    margin-top: 300px;
-    margin-right: 
-    
-
 }
